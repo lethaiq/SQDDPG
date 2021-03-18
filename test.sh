@@ -1,6 +1,6 @@
 # !/bin/bash
 
-EXP_NAME="spread_sqddpg"
+EXP_NAME="simple_tag_sqddpg"
 
 cp ./args/$EXP_NAME.py arguments.py
 python -u test.py
