@@ -13,5 +13,6 @@ fi
 
 mkdir ./model_save/$EXP_NAME$ALIAS
 cp ./args/$EXP_NAME.py arguments.py
-python -u train.py > ./model_save/$EXP_NAME$ALIAS/exp.out &
+# python -u train.py > ./model_save/$EXP_NAME$ALIAS/exp.out &
+python -u train.py 
 echo $! > ./model_save/$EXP_NAME$ALIAS/exp.pid
