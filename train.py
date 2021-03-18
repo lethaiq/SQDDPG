@@ -54,6 +54,7 @@ else:
 stat = dict()
 
 for i in range(args.train_episodes_num):
+    print(i)
     train.run(stat)
     train.logging(stat)
     if i%args.save_model_freq == args.save_model_freq-1:
